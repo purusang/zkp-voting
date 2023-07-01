@@ -2,7 +2,7 @@
 
 It's a Zero Knowledge Based Voting project using React and Ethereum.
 
-## Steps to use the project
+## How I built this project from the beginning.
 
 1. Clone a hardhat + react project as a starting boilerplate from: https://github.com/purusang/coffeeMachine
 2. Install depenencies by npm install.
@@ -16,3 +16,4 @@ It's a Zero Knowledge Based Voting project using React and Ethereum.
    5. Now run the react app by : npm start
       You will see a simple interface in which you will be able to mint tokens and buy coffee with those minted tokens. But make sure that the browser in which the app is opened has a wallet connected to your localhost. Also import some accounts from your local network to the wallet for testing purpose.
       Screenshot of the interface: ![Alt text](Images/CoffeeMachine.PNG)
+4. Now work on zk-merkle-tree
