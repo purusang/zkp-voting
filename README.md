@@ -17,3 +17,14 @@ It's a Zero Knowledge Based Voting project using React and Ethereum.
       You will see a simple interface in which you will be able to mint tokens and buy coffee with those minted tokens. But make sure that the browser in which the app is opened has a wallet connected to your localhost. Also import some accounts from your local network to the wallet for testing purpose.
       Screenshot of the interface: ![Alt text](Images/CoffeeMachine.PNG)
 4. Now work on zk-merkle-tree
+   1. Update package.json as available.
+   2. Create a prepare.sh file inside scripts folder.
+   3. Create a deploy.ts file inside scripts folder.
+   4. Run the following commands (in gitbash if in Windows).
+      npm i
+      npm run prepare (optional, npm i should run it)
+      npm run deploy
+      If you are able to see the following output then setup till now is good.:
+      MiMC sponge hasher address: 0x5FC8d32690cc91D4c39d9d3abcBD16989F875707
+      Verifier address: 0x0165878A594ca255338adfa4d48449f69242Eb8F
+      ZKTreeVote address: 0xa513E6E4b8f2a923D98304ec87F64353C4D5C853
