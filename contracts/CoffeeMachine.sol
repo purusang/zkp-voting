@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.6.6;
+pragma solidity ^0.8.17;
 /// @title Sample Coffee Vending Machine
 /// @author Rajkumar Gaur
 /// @notice This generates fake coffee tokens
@@ -12,7 +12,7 @@ contract CoffeeMachine {
     
     // this is called when contract is deployed and assigns the owner
     /// @param _owner Contract deployer's address
-    constructor(address payable _owner) public {
+    constructor(address payable _owner)  {
         owner = _owner;
     }
     
